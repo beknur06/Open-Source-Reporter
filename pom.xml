@@ -3,12 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>by.andd3dfx</groupId>
-	<artifactId>spring-boot-3-template</artifactId>
+	<groupId>open.source.repoter</groupId>
+	<artifactId>open-source-reporter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>spring-boot-3-template</name>
-	<description>Template project for Spring Boot 3</description>
+	<name>open-source-reporter</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
