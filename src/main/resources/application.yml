@@ -1,0 +1,13 @@
+server:
+  port: 9090
+  servlet:
+    context-path: ${SERVER_SERVLET_CONTEXT-PATH:/dvk/api}
+
+spring:
+  profiles:
+    active: dev
+  flyway:
+    placeholders.env: ${spring.profiles.active}
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
